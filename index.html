@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="icon" href="favicon.png" />
+    <title>Square Space</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+      body {
+        font-family: "Poppins", sans-serif;
+      }
+    </style>
+  </head>
+  <body
+    class="overflow-x-hidden w-full h-screen text-white selection:bg-orange-600 selection:text-black"
+  >
+    <div id="main" class="bg-black w-full h-full px-[5%]">
+      <nav id="nav" class="py-2 flex items-center justify-between">
+        <div class="nav1">
+          <img src="logo.png" alt="logo" width="230" />
+        </div>
+        <div class="nav2">
+          <ul class="flex gap-x-10">
+            <li><a href="#" class="uppercase font-bold">product</a></li>
+            <li><a href="#" class="uppercase font-bold">templates</a></li>
+            <li><a href="#" class="uppercase font-bold">resources</a></li>
+          </ul>
+        </div>
+        <div class="nav3">
+          <ul class="flex gap-x-10 items-center">
+            <li><a href="#" class="uppercase font-bold">log in</a></li>
+            <li>
+              <button
+                class="uppercase font-bold px-4 py-2 bg-white text-black rounded"
+              >
+                get stardet
+              </button>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div id="hero">
+        <div
+          class="hero uppercase text-[120px] flex flex-col items-center font-semibold leading-[120px] mt-14 z-10 relative"
+        >
+          <h1>everything</h1>
+          <h1 class="flex items-center">
+            to<span class="bg-orange-600 px-10 py-6 mx-6 text-4xl rounded-full"
+              >book now</span
+            >sell
+          </h1>
+          <h1>anything</h1>
+        </div>
+        <div class="img">
+          <img
+            src="banner1.png"
+            alt="banner1"
+            class="absolute top-[25%] left-[8%]"
+          />
+          <img
+            src="banner2.png"
+            alt="banner2"
+            class="absolute bottom-[10%] right-[8%]"
+          />
+          <img
+            src="banner3.jpg"
+            alt="banner3"
+            class="absolute bottom-[13%] left-[21%] rounded-lg"
+          />
+          <img
+            src="banner4.jpg"
+            alt="banner4"
+            class="absolute top-[13%] right-[30%] rounded-lg"
+          />
+        </div>
+      </div>
+      <div class="icons flex gap-x-4 text-xl absolute bottom-5">
+          <i class="fa-brands fa-facebook" aria-hidden="true"></i>
+          <i class="fa-brands fa-twitter" aria-hidden="true"></i>
+          <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+          <i class="fa-brands fa-linkedin" aria-hidden="true"></i>
+        </div>
+      <div id="scroll" class="scroll fixed bottom-6 right-1/2	translate-x-1/2">
+        <span>Scroll Down <i class="fa-solid fa-arrow-down" aria-hidden="true"></i></span>
+      </div>
+    </div>
+
+    <!-- all script files -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"
+      integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
