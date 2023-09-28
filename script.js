@@ -23,7 +23,8 @@ gsap.from( ".img img", {
     opacity: 0,
     scale: 0.5, 
     stagger: 0.2, 
-    delay: .2
+    delay: .2,
+    y: 10
 })
 
 gsap.to( "#scroll", {
@@ -33,3 +34,9 @@ gsap.to( "#scroll", {
     yoyo: true
 } )
 
+gsap.from( "#icon > ul > li" , {
+    duration: .3,
+    y: 80, 
+    opacity: 0, 
+    stagger: 0.2
+} )
